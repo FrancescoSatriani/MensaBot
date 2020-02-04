@@ -242,6 +242,6 @@ while True:
             thread_automa.start()
         except:
             print("Errore con il thread")
-        bot.polling()
+        bot.polling(none_stop = True)
     except Exception:
         time.sleep(15)
